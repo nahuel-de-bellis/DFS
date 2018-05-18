@@ -17,7 +17,7 @@ struct grafo
         adj.resize(nodos+1);
         visitados.resize(nodos+1, false);
         
-        for(int i = 0;i<nodos;i++)
+        for(int i = 0;i<aristas;i++)
         {
             cin >> n1 >> n2;
             adj[n1].push_back(n2);
